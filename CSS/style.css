@@ -1,0 +1,76 @@
+/*
+BOX 
+largura
+altura
+conteudo da caixa
+
+espaçamentos
+preenchimento
+bordas
+
+posicionamentos
+
+*/
+
+
+
+body {
+    background-color: #e5e5e5;
+    color: #25282b;
+
+    margin: 0;
+}
+
+#container {
+    width: 80%;
+    max-width: 980px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    display: flex;
+
+}
+
+#intro{
+    width: 300px;
+
+    margin-right: 20px;
+}
+
+main {
+    margin-top: 32px 0; 
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-bottom: 32px;
+}
+
+button {
+    border: none;
+
+    font-weight: bold;
+    background: none;
+    color: #ff5E84;
+}
+
+button.fat{
+    background: #ff5E84;
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a{
+    color: #25282b;
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
