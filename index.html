@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WorkshopDev</title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900|Pacifico&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -36,43 +38,49 @@
         </section>
 
         <section id="last-ideias">
-            <div class="ideia">
-                <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg"
-                alt="Imagem de Curso de Programação">
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg" alt="Imagem de Curso de Programação">
 
                 <div class="content">
                     <h3>Curso de Programação</h3>
                     <p>Estudo</p>
                     <div class="description">
-                        Mussum Ipsum, cacilds vidis litro abertis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Cevadis im ampola pa arma uma pindureta.
+                        Mussum Ipsum, cacilds vidis litro abertis. Mais vale um bebadis conhecidiss, que um alcoolatra
+                        anonimis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Praesent
+                        malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Cevadis im ampola
+                        pa arma uma pindureta.
                     </div>
                     <a href="#">Ir para a Ideia</a>
                 </div>
             </div>
 
-            <div class="ideia">
-                <img src="https://image.flaticon.com/icons/svg/2729/2729005.svg"
-                alt="Imagem de Exercicios">
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729005.svg" alt="Imagem de Exercicios">
 
                 <div class="content">
                     <h3>Exercícios</h3>
                     <p>Saúde</p>
                     <div class="description">
-                        Mussum Ipsum, cacilds vidis litro abertis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Cevadis im ampola pa arma uma pindureta.
+                        Mussum Ipsum, cacilds vidis litro abertis. Mais vale um bebadis conhecidiss, que um alcoolatra
+                        anonimis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Praesent
+                        malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Cevadis im ampola
+                        pa arma uma pindureta.
                     </div>
                     <a href="#">Ir para a Ideia</a>
                 </div>
             </div>
 
-            <div class="ideia">
-                <img src="https://image.flaticon.com/icons/svg/2729/2729027.svg"
-                alt="Imagem de Meditação">
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729027.svg" alt="Imagem de Meditação">
 
                 <div class="content">
                     <h3>Meditação</h3>
                     <p>Mentalidade</p>
                     <div class="description">
-                        Mussum Ipsum, cacilds vidis litro abertis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Cevadis im ampola pa arma uma pindureta.
+                        Mussum Ipsum, cacilds vidis litro abertis. Mais vale um bebadis conhecidiss, que um alcoolatra
+                        anonimis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Praesent
+                        malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Cevadis im ampola
+                        pa arma uma pindureta.
                     </div>
                     <a href="#">Ir para a Ideia</a>
                 </div>
@@ -80,6 +88,46 @@
         </section>
 
     </div>
+
+    <!-- Modal -->
+    <div id="modal">
+        <div class="content">
+            <h1>Nova Ideia</h1>
+
+            <form>
+
+                <div class="input-wrapper">
+                    <label for="title">Título da ideia</label>
+                    <input type="text" name="title">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="category">Categoria</label>
+                    <input type="text" name="category">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="image">Link da imagem</label>
+                    <input type="url" name="imagem">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="description">Digite uma descrição para essa ideia</label>
+                    <textarea name="description" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="link">Link da ideia</label>
+                    <input type="url" name="link">
+                </div>
+                <button>Salvar</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
 
     <script src="scripts.js"></script>
 
