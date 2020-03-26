@@ -1,43 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WorkshopDev</title>
-    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Ideias - Casa Criativa</title>
+    <link rel="stylesheet" href="../CSS/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900|Pacifico&display=swap"
         rel="stylesheet">
 </head>
+<body id="page-ideas">
+<div id="container">
+    <header>
+        <img src="../img/logo(1).png" alt="Imagem da logomarca">
+        <nav>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#">Ideias</a></li>
+            <li><a href="#">Nova Ideia</a></li>
+        </nav>
+    </header>
+    <section id="title">
+        <p>em exibição</p>
+        <h1>Ideias</h1>
+    </section>
 
-<body>
-    <div id="container">
-
-        <section id="intro">
-            <header>
-                <img src="./img/logo(1).png" alt="Imagem da logomarca">
-            </header>
-
-            <main>
-                <p>Ficar em casa em períodos longos, não deve ser nada fácil.</p>
-                <p>Iremos catalogar ideias, <strong>Brincadeiras</strong> e tudo que for necessário para tornar esse
-                    momento
-                    mais interessante.</p>
-                <p>Comece clicando em ver ideais para ver as ideias cadastradas e contribua adicionando a sua ideia.</p>
-            </main>
-
-            <section id="buttons">
-                <button onclick="onOff()">+ Adicionar Ideia</button>
-                <button class="fat">Ver Ideias</button>
-            </section>
-
-            <footer id="footer">
-                Com <a href="http://rocketseat.com.br">Rocketseat</a>
-            </footer>
-
-        </section>
-
-        <section id="last-ideias">
+    <main>
+        <section id="deias">
             <div class="idea">
                 <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg" alt="Imagem de Curso de Programação">
 
@@ -86,11 +73,14 @@
                 </div>
             </div>
         </section>
+    </main>
+    <footer>
+        Com <a href="http://rocketseat.com.br">Rocketseat</a>
+    </footer>
+</div>
 
-    </div>
-
-    <!-- Modal -->
-    <div id="modal" class="hide">
+     <!-- Modal -->
+     <div id="modal" class="hide">
         <div class="content">
             <h1>Nova Ideia</h1>
 
@@ -128,5 +118,4 @@
     <script src="scripts.js"></script>
 
 </body>
-
 </html>
